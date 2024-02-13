@@ -3,7 +3,7 @@
  * @param {string|number} barcodeWithoutChecksum, ШПИ без контрольной суммы
  * @returns {string}, ШПИ с контрольной суммой
  */
-module.exports.getControlSum = function(barcodeWithoutChecksum) {
+module.exports.getFullBarcode = function(barcodeWithoutChecksum) {
    try {
       if(barcodeWithoutChecksum.toString().match(/^[0-9]{13}$/)) {
          let numArr = Array.from(String(parseInt(barcodeWithoutChecksum)), Number)
