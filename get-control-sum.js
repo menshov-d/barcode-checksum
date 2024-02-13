@@ -1,6 +1,6 @@
 /**
  * calculates the barcode checksum and returns the full barcode
- * @param {string|number} barcodeWithoutChecksum, barcode without checksum 
+ * @param {string|number} barcodeWithoutChecksum, Ш
  * @returns {string}, barcode with checksum
  */
 module.exports.getControlSum = function(barcodeWithoutChecksum) {
