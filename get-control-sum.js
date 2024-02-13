@@ -1,7 +1,7 @@
 /**
- * calculates the barcode checksum and returns the full barcode
- * @param {string|number} barcodeWithoutChecksum, Ш
- * @returns {string}, barcode with checksum
+ * производит вычисление контрольной суммы ШПИ и возвращает полный ШПИ
+ * @param {string|number} barcodeWithoutChecksum, ШПИ без контрольной суммы
+ * @returns {string}, ШПИ с контрольной суммой
  */
 module.exports.getControlSum = function(barcodeWithoutChecksum) {
    try {
