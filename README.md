@@ -1,2 +1,2 @@
 # bcode-checksum
-Сalculates the checksum of the Russian Post track number
+Производит вычисление контрольной суммы для штрихового почтового идентификатора Почты России и возвращает полный ШПИ. 
